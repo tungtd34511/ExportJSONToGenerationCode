@@ -1,0 +1,2465 @@
+[
+  {
+    "tableName": "Account",
+    "foreignKey": [
+      {
+        "name": "AccountStatus",
+        "fk": "AccountStatusId"
+      },
+      {
+        "name": "AccountType",
+        "fk": "AccountTypeId"
+      },
+      {
+        "name": "Role",
+        "fk": "RoleId"
+      },
+      {
+        "name": "Account",
+        "fk": "AccountId"
+      },
+      {
+        "name": "Account",
+        "fk": "AccountId"
+      },
+      {
+        "name": "Account",
+        "fk": "AccountId"
+      },
+      {
+        "name": "AffiliateCode",
+        "fk": "Id"
+      },
+      {
+        "name": "Account",
+        "fk": "AccountId"
+      },
+      {
+        "name": "Product",
+        "fk": "ProductId"
+      },
+      {
+        "name": "Account",
+        "fk": "AccountId"
+      },
+      {
+        "name": "CustomerCategory",
+        "fk": "CustomerCategoryId"
+      },
+      {
+        "name": "Country",
+        "fk": "CountryId"
+      },
+      {
+        "name": "Customer",
+        "fk": "CustomerId"
+      },
+      {
+        "name": "District",
+        "fk": "DistrictId"
+      },
+      {
+        "name": "Province",
+        "fk": "ProvinceId"
+      },
+      {
+        "name": "Ward",
+        "fk": "WardId"
+      },
+      {
+        "name": "Province",
+        "fk": "ProvinceId"
+      },
+      {
+        "name": "Account",
+        "fk": "AccountRequestId"
+      },
+      {
+        "name": "ExportInternalRequestStatus",
+        "fk": "ExportInternalRequestStatusId"
+      },
+      {
+        "name": "Product",
+        "fk": "ProductId"
+      },
+      {
+        "name": "MenuType",
+        "fk": "MenuTypeId"
+      },
+      {
+        "name": "NotificationStatus",
+        "fk": "NotificationStatusId"
+      },
+      {
+        "name": "Orders",
+        "fk": "OrderId"
+      },
+      {
+        "name": "Orders",
+        "fk": "OrderId"
+      },
+      {
+        "name": "OrderDetailStatus",
+        "fk": "OrderDetailStatusId"
+      },
+      {
+        "name": "Product",
+        "fk": "ProductId"
+      },
+      {
+        "name": "OrderDetail",
+        "fk": "OrderDetailId"
+      },
+      {
+        "name": "Orders",
+        "fk": "OrderId"
+      },
+      {
+        "name": "Promotion",
+        "fk": "PromotionId"
+      },
+      {
+        "name": "Account",
+        "fk": "AccountId"
+      },
+      {
+        "name": "Customer",
+        "fk": "CustomerId"
+      },
+      {
+        "name": "DepositType",
+        "fk": "DepositTypeId"
+      },
+      {
+        "name": "OrderPaymentStatus",
+        "fk": "OrderPaymentStatusId"
+      },
+      {
+        "name": "OrderStatus",
+        "fk": "OrderStatusId"
+      },
+      {
+        "name": "OrderType",
+        "fk": "OrderTypeId"
+      },
+      {
+        "name": "Orders",
+        "fk": "OrderId"
+      },
+      {
+        "name": "Account",
+        "fk": "AuthorId"
+      },
+      {
+        "name": "PostCategory",
+        "fk": "PostCategoryId"
+      },
+      {
+        "name": "PostLayout",
+        "fk": "PostLayoutId"
+      },
+      {
+        "name": "PostStatus",
+        "fk": "PostStatusId"
+      },
+      {
+        "name": "PostType",
+        "fk": "PostTypeId"
+      },
+      {
+        "name": "Post",
+        "fk": "PostId"
+      },
+      {
+        "name": "Tag",
+        "fk": "TagId"
+      },
+      {
+        "name": "Attribute",
+        "fk": "AttributeId"
+      },
+      {
+        "name": "Product",
+        "fk": "ProductId"
+      },
+      {
+        "name": "Account",
+        "fk": "AccountId"
+      },
+      {
+        "name": "Product",
+        "fk": "ProductId"
+      },
+      {
+        "name": "Promotion",
+        "fk": "PromotionId"
+      },
+      {
+        "name": "Country",
+        "fk": "CountryId"
+      },
+      {
+        "name": "Customer",
+        "fk": "CustomerId"
+      },
+      {
+        "name": "Account",
+        "fk": "AccountId"
+      },
+      {
+        "name": "ProductReview",
+        "fk": "ProductReviewId"
+      },
+      {
+        "name": "Menu",
+        "fk": "MenuId"
+      },
+      {
+        "name": "Role",
+        "fk": "RoleId"
+      },
+      {
+        "name": "Rights",
+        "fk": "RightsId"
+      },
+      {
+        "name": "Role",
+        "fk": "RoleId"
+      },
+      {
+        "name": "CustomerShipAddress",
+        "fk": "CustomerShipAddressId"
+      },
+      {
+        "name": "Orders",
+        "fk": "OrderId"
+      },
+      {
+        "name": "ShipStatus",
+        "fk": "ShipStatusId"
+      },
+      {
+        "name": "ShipType",
+        "fk": "ShipTypeId"
+      },
+      {
+        "name": "SupplierType",
+        "fk": "SupplierTypeId"
+      },
+      {
+        "name": "SupplierStatus",
+        "fk": "SupplierStatusId"
+      },
+      {
+        "name": "Product",
+        "fk": "ProductId"
+      },
+      {
+        "name": "SystemProductLogHistoryType",
+        "fk": "SystemProductLogHistoryTypeId"
+      },
+      {
+        "name": "TagType",
+        "fk": "TagTypeId"
+      },
+      {
+        "name": "Orders",
+        "fk": "OrderId"
+      },
+      {
+        "name": "TransactionStatus",
+        "fk": "TransactionStatusId"
+      },
+      {
+        "name": "TransactionType",
+        "fk": "TransactionTypeId"
+      },
+      {
+        "name": "Transactions",
+        "fk": "TransactionId"
+      },
+      {
+        "name": "FolderUpload",
+        "fk": "FolderUploadId"
+      },
+      {
+        "name": "Promotion",
+        "fk": "PromotionId"
+      },
+      {
+        "name": "VoucherStatus",
+        "fk": "VoucherStatusId"
+      },
+      {
+        "name": "VoucherType",
+        "fk": "VoucherTypeId"
+      },
+      {
+        "name": "Voucher",
+        "fk": "VoucherId"
+      },
+      {
+        "name": "District",
+        "fk": "DistrictId"
+      },
+      {
+        "name": "District",
+        "fk": "AddressDistrict"
+      },
+      {
+        "name": "Province",
+        "fk": "AddressCity"
+      },
+      {
+        "name": "Ward",
+        "fk": "AddressWard"
+      },
+      {
+        "name": "WarehouseStatus",
+        "fk": "WarehouseStatusId"
+      },
+      {
+        "name": "WarehouseType",
+        "fk": "WarehouseTypeId"
+      },
+      {
+        "name": "Account",
+        "fk": "AccountId"
+      },
+      {
+        "name": "Warehouse",
+        "fk": "WarehouseId"
+      },
+      {
+        "name": "WarehouseCard",
+        "fk": "WarehouseCardId"
+      },
+      {
+        "name": "Account",
+        "fk": "AccountId"
+      },
+      {
+        "name": "Warehouse",
+        "fk": "WarehouseId"
+      },
+      {
+        "name": "WarehouseEntryRequestStatus",
+        "fk": "WarehouseEntryRequestStatusId"
+      },
+      {
+        "name": "Product",
+        "fk": "ProductId"
+      },
+      {
+        "name": "WarehouseEntryRequest",
+        "fk": "WarehouseEntryRequestId"
+      },
+      {
+        "name": "Account",
+        "fk": "AccountId"
+      },
+      {
+        "name": "WarehouseEntryRequest",
+        "fk": "WarehouseEntryRequestId"
+      },
+      {
+        "name": "Account",
+        "fk": "AccountId"
+      },
+      {
+        "name": "Product",
+        "fk": "ProductId"
+      }
+    ],
+    "schema": [
+      {
+        "Id": [
+          {
+            "format": "BIGINT",
+            "name": "Mã",
+            "require": false
+          }
+        ],
+        "AccountStatusId": [
+          {
+            "format": "BIGINT",
+            "name": "AccountStatusId",
+            "require": false
+          }
+        ],
+        "AccountTypeId": [
+          {
+            "format": "BIGINT",
+            "name": "AccountTypeId",
+            "require": false
+          }
+        ],
+        "Username": [
+          {
+            "format": "NVARCHAR(255)",
+            "name": "Username",
+            "require": true
+          }
+        ],
+        "Password": [
+          {
+            "format": "NVARCHAR(500)",
+            "name": "Password",
+            "require": true
+          }
+        ],
+        "FullName": [
+          {
+            "format": "NVARCHAR(255)",
+            "name": "FullName",
+            "require": false
+          }
+        ],
+        "FirstName": [
+          {
+            "format": "NVARCHAR(255)",
+            "name": "FirstName",
+            "require": false
+          }
+        ],
+        "MiddleName": [
+          {
+            "format": "NVARCHAR(255)",
+            "name": "MiddleName",
+            "require": false
+          }
+        ],
+        "LastName": [
+          {
+            "format": "NVARCHAR(255)",
+            "name": "LastName",
+            "require": false
+          }
+        ],
+        "Photo": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "Photo",
+            "require": false
+          }
+        ],
+        "Description": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "Miêu tả",
+            "require": false
+          }
+        ],
+        "Info": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "Info",
+            "require": false
+          }
+        ],
+        "IdCardNumber": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "IdCardNumber",
+            "require": false
+          }
+        ],
+        "GoogleId": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "GoogleId",
+            "require": false
+          }
+        ],
+        "FacebookId": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "FacebookId",
+            "require": false
+          }
+        ],
+        "IDCardNumberPhoto1": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "IDCardNumberPhoto1",
+            "require": false
+          }
+        ],
+        "IDCardNumberPhoto2": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "IDCardNumberPhoto2",
+            "require": false
+          }
+        ],
+        "DoB": [
+          {
+            "format": "DATETIME2(7)",
+            "name": "DoB",
+            "require": false
+          }
+        ],
+        "ZipCode": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "ZipCode",
+            "require": false
+          }
+        ],
+        "AddressCity": [
+          {
+            "format": "BIGINT",
+            "name": "AddressCity",
+            "require": false
+          }
+        ],
+        "AddressDistrict": [
+          {
+            "format": "BIGINT",
+            "name": "AddressDistrict",
+            "require": false
+          }
+        ],
+        "AddressWard": [
+          {
+            "format": "BIGINT",
+            "name": "AddressWard",
+            "require": false
+          }
+        ],
+        "AddressDetail": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "AddressDetail",
+            "require": false
+          }
+        ],
+        "Active": [
+          {
+            "format": "BIT",
+            "name": "Kích hoạt",
+            "require": true
+          }
+        ],
+        "AccessFailedCount": [
+          {
+            "format": "INT",
+            "name": "AccessFailedCount",
+            "require": false
+          }
+        ],
+        "LockoutEnabled": [
+          {
+            "format": "BIT",
+            "name": "LockoutEnabled",
+            "require": false
+          }
+        ],
+        "LockoutEndDate": [
+          {
+            "format": "DATETIME2(7)",
+            "name": "LockoutEndDate",
+            "require": false
+          }
+        ],
+        "CreatedTime": [
+          {
+            "format": "DATETIME",
+            "name": "Ngày tạo",
+            "require": true
+          }
+        ],
+        "Search": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "Search",
+            "require": false
+          }
+        ],
+        "RoleId": [
+          {
+            "format": "BIGINT",
+            "name": "RoleId",
+            "require": false
+          }
+        ],
+        "Phone": [
+          {
+            "format": "NVARCHAR(255)",
+            "name": "Phone",
+            "require": false
+          }
+        ],
+        "Email": [
+          {
+            "format": "NVARCHAR(255)",
+            "name": "Email",
+            "require": false
+          }
+        ],
+        "PK__Account__3214EC07FBF9051C] PRIMARY KEY CLUSTERED \r\n(\r\n\t[Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[AccountMeta]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[AccountMeta](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "PK__Account__3214EC07FBF9051C] PRIMARY KEY CLUSTERED \r\n(\r\n\t[Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[AccountMeta]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[AccountMeta](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "AccountId": [
+          {
+            "format": "BIGINT",
+            "name": "AccountId",
+            "require": true
+          }
+        ],
+        "Name": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "Tên",
+            "require": false
+          }
+        ],
+        "Key": [
+          {
+            "format": "NVARCHAR(255)",
+            "name": "Key",
+            "require": false
+          }
+        ],
+        "Value": [
+          {
+            "format": "NVARCHAR(255)",
+            "name": "Value",
+            "require": false
+          }
+        ],
+        "PK_AccountMeta] PRIMARY KEY CLUSTERED \r\n(\r\n\t[Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[AccountStatus]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[AccountStatus](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "PK_AccountMeta] PRIMARY KEY CLUSTERED \r\n(\r\n\t[Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[AccountStatus]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[AccountStatus](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "Color": [
+          {
+            "format": "NVARCHAR(50)",
+            "name": "Color",
+            "require": false
+          }
+        ],
+        "PK__AccountS__3214EC0768461D3D] PRIMARY KEY CLUSTERED \r\n(\r\n\t[Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[AccountType]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[AccountType](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "PK__AccountS__3214EC0768461D3D] PRIMARY KEY CLUSTERED \r\n(\r\n\t[Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[AccountType]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[AccountType](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[ActivityLog]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[ActivityLog](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[ActivityLog]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[ActivityLog](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "EntityCode": [
+          {
+            "format": "NVARCHAR(255)",
+            "name": "EntityCode",
+            "require": false
+          }
+        ],
+        "ObjectOld": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "ObjectOld",
+            "require": false
+          }
+        ],
+        "ObjectNew": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "ObjectNew",
+            "require": false
+          }
+        ],
+        "Url": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "Liên kết",
+            "require": false
+          }
+        ],
+        "UrlSource": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "UrlSource",
+            "require": false
+          }
+        ],
+        "IpAddress": [
+          {
+            "format": "NVARCHAR(255)",
+            "name": "IpAddress",
+            "require": false
+          }
+        ],
+        "Device": [
+          {
+            "format": "NVARCHAR(255)",
+            "name": "Device",
+            "require": false
+          }
+        ],
+        "Browser": [
+          {
+            "format": "NVARCHAR(255)",
+            "name": "Browser",
+            "require": false
+          }
+        ],
+        "OS": [
+          {
+            "format": "NVARCHAR(255)",
+            "name": "OS",
+            "require": false
+          }
+        ],
+        "UserAgent": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "UserAgent",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[AffiliateCode]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[AffiliateCode](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[AffiliateCode]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[AffiliateCode](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "Code": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "Code",
+            "require": false
+          }
+        ],
+        "Discount": [
+          {
+            "format": "FLOAT",
+            "name": "Discount",
+            "require": false
+          }
+        ],
+        "DiscountType": [
+          {
+            "format": "INT",
+            "name": "DiscountType",
+            "require": false
+          }
+        ],
+        "Commission": [
+          {
+            "format": "INT",
+            "name": "Commission",
+            "require": true
+          }
+        ],
+        "CommissionType": [
+          {
+            "format": "INT",
+            "name": "CommissionType",
+            "require": true
+          }
+        ],
+        "DiscountEndDate": [
+          {
+            "format": "DATETIME",
+            "name": "DiscountEndDate",
+            "require": false
+          }
+        ],
+        "MinimumOrderTotal": [
+          {
+            "format": "INT",
+            "name": "MinimumOrderTotal",
+            "require": false
+          }
+        ],
+        "PK_AffiliateCode] PRIMARY KEY CLUSTERED \r\n(\r\n\t[Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[Attribute]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[Attribute](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "PK_AffiliateCode] PRIMARY KEY CLUSTERED \r\n(\r\n\t[Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[Attribute]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[Attribute](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[Banner]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[Banner](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[Banner]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[Banner](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "Title": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "Title",
+            "require": false
+          }
+        ],
+        "ImageURL": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "ImageURL",
+            "require": false
+          }
+        ],
+        "VideoURL": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "VideoURL",
+            "require": false
+          }
+        ],
+        "URL": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "URL",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[Cart]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[Cart](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[Cart]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[Cart](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "ProductId": [
+          {
+            "format": "BIGINT",
+            "name": "ProductId",
+            "require": true
+          }
+        ],
+        "Quantity": [
+          {
+            "format": "INT",
+            "name": "Quantity",
+            "require": true
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[Country]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[Country](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[Country]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[Country](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "CountryCode": [
+          {
+            "format": "NVARCHAR(255)",
+            "name": "CountryCode",
+            "require": false
+          }
+        ],
+        "PK__Country__3214EC07457DF0A9] PRIMARY KEY CLUSTERED \r\n(\r\n\t[Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[Customer]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[Customer](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "PK__Country__3214EC07457DF0A9] PRIMARY KEY CLUSTERED \r\n(\r\n\t[Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[Customer]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[Customer](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "CustomerCategoryId": [
+          {
+            "format": "BIGINT",
+            "name": "CustomerCategoryId",
+            "require": false
+          }
+        ],
+        "Address": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "Address",
+            "require": false
+          }
+        ],
+        "CitizenId": [
+          {
+            "format": "NVARCHAR(2048)",
+            "name": "CitizenId",
+            "require": false
+          }
+        ],
+        "RankId": [
+          {
+            "format": "BIGINT",
+            "name": "RankId",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[CustomerCategory]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[CustomerCategory](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[CustomerCategory]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[CustomerCategory](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[CustomerShipAddress]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[CustomerShipAddress](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[CustomerShipAddress]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[CustomerShipAddress](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "CustomerId": [
+          {
+            "format": "BIGINT",
+            "name": "CustomerId",
+            "require": false
+          }
+        ],
+        "CountryId": [
+          {
+            "format": "BIGINT",
+            "name": "CountryId",
+            "require": false
+          }
+        ],
+        "ProvinceId": [
+          {
+            "format": "BIGINT",
+            "name": "ProvinceId",
+            "require": false
+          }
+        ],
+        "DistrictId": [
+          {
+            "format": "BIGINT",
+            "name": "DistrictId",
+            "require": false
+          }
+        ],
+        "WardId": [
+          {
+            "format": "BIGINT",
+            "name": "WardId",
+            "require": false
+          }
+        ],
+        "RecipientName": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "RecipientName",
+            "require": false
+          }
+        ],
+        "RecipientPhoneNumber": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "RecipientPhoneNumber",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[DepositType]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[DepositType](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[DepositType]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[DepositType](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[District]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[District](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[District]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[District](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[ExportInternalRequest]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[ExportInternalRequest](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[ExportInternalRequest]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[ExportInternalRequest](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "AccountRequestId": [
+          {
+            "format": "BIGINT",
+            "name": "AccountRequestId",
+            "require": false
+          }
+        ],
+        "RequestDate": [
+          {
+            "format": "DATETIME",
+            "name": "RequestDate",
+            "require": false
+          }
+        ],
+        "AccountConfirmId": [
+          {
+            "format": "BIGINT",
+            "name": "AccountConfirmId",
+            "require": false
+          }
+        ],
+        "ConfirmDate": [
+          {
+            "format": "DATETIME",
+            "name": "ConfirmDate",
+            "require": false
+          }
+        ],
+        "TotalPrice": [
+          {
+            "format": "DECIMAL(18, 0)",
+            "name": "TotalPrice",
+            "require": false
+          }
+        ],
+        "ExportInternalRequestStatusId": [
+          {
+            "format": "BIGINT",
+            "name": "ExportInternalRequestStatusId",
+            "require": true
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[ExportInternalRequestStatus]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[ExportInternalRequestStatus](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[ExportInternalRequestStatus]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[ExportInternalRequestStatus](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[FolderUpload]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[FolderUpload](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[FolderUpload]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[FolderUpload](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "Path": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "Path",
+            "require": false
+          }
+        ],
+        "ParentId": [
+          {
+            "format": "BIGINT",
+            "name": "Cha",
+            "require": false
+          }
+        ],
+        "TreeIds": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "TreeIds",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[Menu]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[Menu](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[Menu]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[Menu](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "GroupId": [
+          {
+            "format": "INT",
+            "name": "Nhóm",
+            "require": false
+          }
+        ],
+        "Priority": [
+          {
+            "format": "INT",
+            "name": "Ưu tiên",
+            "require": false
+          }
+        ],
+        "MenuTypeId": [
+          {
+            "format": "BIGINT",
+            "name": "Loại Menu",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[MenuType]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[MenuType](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[MenuType]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[MenuType](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[Notification]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[Notification](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[Notification]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[Notification](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "NotificationStatusId": [
+          {
+            "format": "BIGINT",
+            "name": "NotificationStatusId",
+            "require": false
+          }
+        ],
+        "SenderId": [
+          {
+            "format": "BIGINT",
+            "name": "SenderId",
+            "require": true
+          }
+        ],
+        "ApproveTime": [
+          {
+            "format": "DATETIME",
+            "name": "ApproveTime",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[NotificationStatus]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[NotificationStatus](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[NotificationStatus]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[NotificationStatus](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[OrderCallEvent]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[OrderCallEvent](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[OrderCallEvent]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[OrderCallEvent](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "OrderId": [
+          {
+            "format": "BIGINT",
+            "name": "OrderId",
+            "require": false
+          }
+        ],
+        "IsCreateEvent": [
+          {
+            "format": "BIT",
+            "name": "IsCreateEvent",
+            "require": false
+          }
+        ],
+        "TimeToCall": [
+          {
+            "format": "DATETIME2(7)",
+            "name": "TimeToCall",
+            "require": false
+          }
+        ],
+        "IsCall": [
+          {
+            "format": "BIT",
+            "name": "IsCall",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[OrderDetail]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[OrderDetail](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[OrderDetail]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[OrderDetail](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "QuantityReturn": [
+          {
+            "format": "INT",
+            "name": "QuantityReturn",
+            "require": false
+          }
+        ],
+        "Price": [
+          {
+            "format": "DECIMAL(18, 0)",
+            "name": "Price",
+            "require": false
+          }
+        ],
+        "FinalPrice": [
+          {
+            "format": "DECIMAL(18, 0)",
+            "name": "FinalPrice",
+            "require": false
+          }
+        ],
+        "OrderDetailStatusId": [
+          {
+            "format": "BIGINT",
+            "name": "OrderDetailStatusId",
+            "require": false
+          }
+        ],
+        "IsEdit": [
+          {
+            "format": "INT",
+            "name": "IsEdit",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[OrderDetailMeta]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[OrderDetailMeta](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[OrderDetailMeta]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[OrderDetailMeta](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "OrderDetailId": [
+          {
+            "format": "BIGINT",
+            "name": "OrderDetailId",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[OrderDetailStatus]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[OrderDetailStatus](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[OrderDetailStatus]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[OrderDetailStatus](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[OrderPaymentStatus]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[OrderPaymentStatus](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[OrderPaymentStatus]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[OrderPaymentStatus](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[OrderPromotion]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[OrderPromotion](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[OrderPromotion]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[OrderPromotion](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "PromotionId": [
+          {
+            "format": "BIGINT",
+            "name": "PromotionId",
+            "require": false
+          }
+        ],
+        "PK__OrderPro__3214EC07C94B5A8D] PRIMARY KEY CLUSTERED \r\n(\r\n\t[Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[Orders]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[Orders](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "PK__OrderPro__3214EC07C94B5A8D] PRIMARY KEY CLUSTERED \r\n(\r\n\t[Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[Orders]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[Orders](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "OrderTypeId": [
+          {
+            "format": "BIGINT",
+            "name": "OrderTypeId",
+            "require": false
+          }
+        ],
+        "OrderStatusId": [
+          {
+            "format": "BIGINT",
+            "name": "OrderStatusId",
+            "require": false
+          }
+        ],
+        "OrderPaymentStatusId": [
+          {
+            "format": "BIGINT",
+            "name": "OrderPaymentStatusId",
+            "require": false
+          }
+        ],
+        "DirectDiscount": [
+          {
+            "format": "FLOAT",
+            "name": "DirectDiscount",
+            "require": false
+          }
+        ],
+        "TotalPaid": [
+          {
+            "format": "INT",
+            "name": "TotalPaid",
+            "require": false
+          }
+        ],
+        "Feedback": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "Feedback",
+            "require": false
+          }
+        ],
+        "DepositValue": [
+          {
+            "format": "NVARCHAR(255)",
+            "name": "DepositValue",
+            "require": false
+          }
+        ],
+        "DepositTypeId": [
+          {
+            "format": "BIGINT",
+            "name": "DepositTypeId",
+            "require": false
+          }
+        ],
+        "ShipCountryAddress": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "ShipCountryAddress",
+            "require": false
+          }
+        ],
+        "ShipProvinceAddress": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "ShipProvinceAddress",
+            "require": false
+          }
+        ],
+        "ShipDistrictAddress": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "ShipDistrictAddress",
+            "require": false
+          }
+        ],
+        "ShipWardAddress": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "ShipWardAddress",
+            "require": false
+          }
+        ],
+        "ShipAddressDetail": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "ShipAddressDetail",
+            "require": false
+          }
+        ],
+        "ShipRecipientName": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "ShipRecipientName",
+            "require": false
+          }
+        ],
+        "ShipRecipientPhone": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "ShipRecipientPhone",
+            "require": false
+          }
+        ],
+        "ShipWarehouseReceiverValue": [
+          {
+            "format": "INT",
+            "name": "ShipWarehouseReceiverValue",
+            "require": false
+          }
+        ],
+        "ShipWarehouseValue": [
+          {
+            "format": "INT",
+            "name": "ShipWarehouseValue",
+            "require": false
+          }
+        ],
+        "ShipReturnValue": [
+          {
+            "format": "INT",
+            "name": "ShipReturnValue",
+            "require": false
+          }
+        ],
+        "ShipValue": [
+          {
+            "format": "DECIMAL(18, 0)",
+            "name": "ShipValue",
+            "require": false
+          }
+        ],
+        "ShipProvinceAddressId": [
+          {
+            "format": "BIGINT",
+            "name": "ShipProvinceAddressId",
+            "require": false
+          }
+        ],
+        "ShipDistrictAddressId": [
+          {
+            "format": "BIGINT",
+            "name": "ShipDistrictAddressId",
+            "require": false
+          }
+        ],
+        "ShipWardAddressId": [
+          {
+            "format": "BIGINT",
+            "name": "ShipWardAddressId",
+            "require": false
+          }
+        ],
+        "IsSingleOrder": [
+          {
+            "format": "INT",
+            "name": "IsSingleOrder",
+            "require": false
+          }
+        ],
+        "LabelId": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "LabelId",
+            "require": false
+          }
+        ],
+        "VoucherCode": [
+          {
+            "format": "NVARCHAR(50)",
+            "name": "VoucherCode",
+            "require": false
+          }
+        ],
+        "VoucherDiscount": [
+          {
+            "format": "FLOAT",
+            "name": "VoucherDiscount",
+            "require": false
+          }
+        ],
+        "AffiliateCode": [
+          {
+            "format": "NVARCHAR(50)",
+            "name": "AffiliateCode",
+            "require": false
+          }
+        ],
+        "AffiliateDiscount": [
+          {
+            "format": "FLOAT",
+            "name": "AffiliateDiscount",
+            "require": false
+          }
+        ],
+        "PK__Orders__3214EC07083BAF13] PRIMARY KEY CLUSTERED \r\n(\r\n\t[Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[OrderStatus]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[OrderStatus](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "PK__Orders__3214EC07083BAF13] PRIMARY KEY CLUSTERED \r\n(\r\n\t[Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[OrderStatus]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[OrderStatus](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[OrderType]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[OrderType](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[OrderType]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[OrderType](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[OrderUpdateHistory]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[OrderUpdateHistory](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[OrderUpdateHistory]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[OrderUpdateHistory](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "ListOrderDetailOld": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "ListOrderDetailOld",
+            "require": false
+          }
+        ],
+        "ListOrderDetailNew": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "ListOrderDetailNew",
+            "require": false
+          }
+        ],
+        "Change": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "Change",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[PenaltyType]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[PenaltyType](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[PenaltyType]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[PenaltyType](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[Post]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[Post](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[Post]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[Post](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "PostTypeId": [
+          {
+            "format": "BIGINT",
+            "name": "PostTypeId",
+            "require": true
+          }
+        ],
+        "PostLayoutId": [
+          {
+            "format": "BIGINT",
+            "name": "PostLayoutId",
+            "require": true
+          }
+        ],
+        "PostStatusId": [
+          {
+            "format": "BIGINT",
+            "name": "PostStatusId",
+            "require": true
+          }
+        ],
+        "PostCategoryId": [
+          {
+            "format": "BIGINT",
+            "name": "PostCategoryId",
+            "require": true
+          }
+        ],
+        "Overview": [
+          {
+            "format": "NVARCHAR(500)",
+            "name": "Overview",
+            "require": true
+          }
+        ],
+        "AuthorId": [
+          {
+            "format": "BIGINT",
+            "name": "AuthorId",
+            "require": true
+          }
+        ],
+        "IsPublish": [
+          {
+            "format": "BIT",
+            "name": "IsPublish",
+            "require": true
+          }
+        ],
+        "IsDraft": [
+          {
+            "format": "BIT",
+            "name": "IsDraft",
+            "require": true
+          }
+        ],
+        "IsApproved": [
+          {
+            "format": "BIT",
+            "name": "IsApproved",
+            "require": true
+          }
+        ],
+        "ApprovalDate": [
+          {
+            "format": "DATETIME2(7)",
+            "name": "ApprovalDate",
+            "require": true
+          }
+        ],
+        "PublishedTime": [
+          {
+            "format": "DATETIME2(7)",
+            "name": "PublishedTime",
+            "require": true
+          }
+        ],
+        "Text": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "Text",
+            "require": false
+          }
+        ],
+        "PK_Post] PRIMARY KEY CLUSTERED \r\n(\r\n\t[Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[PostCategory]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[PostCategory](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "PK_Post] PRIMARY KEY CLUSTERED \r\n(\r\n\t[Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[PostCategory]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[PostCategory](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "ParrentId": [
+          {
+            "format": "BIGINT",
+            "name": "ParrentId",
+            "require": true
+          }
+        ],
+        "PK_PostCategory] PRIMARY KEY CLUSTERED \r\n(\r\n\t[Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[PostLayout]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[PostLayout](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "PK_PostCategory] PRIMARY KEY CLUSTERED \r\n(\r\n\t[Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[PostLayout]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[PostLayout](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "PK_PostLayout] PRIMARY KEY CLUSTERED \r\n(\r\n\t[Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[PostStatus]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[PostStatus](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "PK_PostLayout] PRIMARY KEY CLUSTERED \r\n(\r\n\t[Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[PostStatus]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[PostStatus](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "PK_PostStatus] PRIMARY KEY CLUSTERED \r\n(\r\n\t[Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[PostTag]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[PostTag](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "PK_PostStatus] PRIMARY KEY CLUSTERED \r\n(\r\n\t[Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[PostTag]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[PostTag](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "PostId": [
+          {
+            "format": "BIGINT",
+            "name": "PostId",
+            "require": true
+          }
+        ],
+        "TagId": [
+          {
+            "format": "BIGINT",
+            "name": "TagId",
+            "require": true
+          }
+        ],
+        "PK_PostTag] PRIMARY KEY CLUSTERED \r\n(\r\n\t[Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[PostType]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[PostType](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "PK_PostTag] PRIMARY KEY CLUSTERED \r\n(\r\n\t[Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[PostType]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[PostType](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "PK_PostType] PRIMARY KEY CLUSTERED \r\n(\r\n\t[Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[Product]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[Product](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "PK_PostType] PRIMARY KEY CLUSTERED \r\n(\r\n\t[Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[Product]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[Product](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "ProductCategoryId": [
+          {
+            "format": "BIGINT",
+            "name": "ProductCategoryId",
+            "require": true
+          }
+        ],
+        "ProductBrandId": [
+          {
+            "format": "BIGINT",
+            "name": "ProductBrandId",
+            "require": true
+          }
+        ],
+        "ProductCode": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "ProductCode",
+            "require": false
+          }
+        ],
+        "TotalSold": [
+          {
+            "format": "BIGINT",
+            "name": "TotalSold",
+            "require": true
+          }
+        ],
+        "Weigh": [
+          {
+            "format": "FLOAT",
+            "name": "Weigh",
+            "require": false
+          }
+        ],
+        "DiscountPrice": [
+          {
+            "format": "DECIMAL(18, 0)",
+            "name": "DiscountPrice",
+            "require": true
+          }
+        ],
+        "WholesalePrice": [
+          {
+            "format": "DECIMAL(18, 0)",
+            "name": "WholesalePrice",
+            "require": true
+          }
+        ],
+        "SupplierId": [
+          {
+            "format": "BIGINT",
+            "name": "SupplierId",
+            "require": true
+          }
+        ],
+        "Height": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "Height",
+            "require": false
+          }
+        ],
+        "MultiplePhoto": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "MultiplePhoto",
+            "require": false
+          }
+        ],
+        "IsFeature": [
+          {
+            "format": "BIT",
+            "name": "IsFeature",
+            "require": true
+          }
+        ],
+        "IsSale": [
+          {
+            "format": "BIT",
+            "name": "IsSale",
+            "require": true
+          }
+        ],
+        "IsPopular": [
+          {
+            "format": "BIT",
+            "name": "IsPopular",
+            "require": true
+          }
+        ],
+        "TotalReview": [
+          {
+            "format": "INT",
+            "name": "TotalReview",
+            "require": true
+          }
+        ],
+        "ReviewAverage": [
+          {
+            "format": "FLOAT",
+            "name": "ReviewAverage",
+            "require": true
+          }
+        ],
+        "PK__Product__3214EC07CDEF4952] PRIMARY KEY CLUSTERED \r\n(\r\n\t[Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[ProductAttribute]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[ProductAttribute](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "PK__Product__3214EC07CDEF4952] PRIMARY KEY CLUSTERED \r\n(\r\n\t[Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[ProductAttribute]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[ProductAttribute](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "AttributeId": [
+          {
+            "format": "BIGINT",
+            "name": "AttributeId",
+            "require": true
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[ProductBrand]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[ProductBrand](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[ProductBrand]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[ProductBrand](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[ProductCategory]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[ProductCategory](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[ProductCategory]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[ProductCategory](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "TreeId": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "TreeId",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[ProductReview]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[ProductReview](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[ProductReview]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[ProductReview](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "Score": [
+          {
+            "format": "FLOAT",
+            "name": "Score",
+            "require": true
+          }
+        ],
+        "ShowOnHomePage": [
+          {
+            "format": "BIT",
+            "name": "ShowOnHomePage",
+            "require": true
+          }
+        ],
+        "TotalLike": [
+          {
+            "format": "INT",
+            "name": "TotalLike",
+            "require": true
+          }
+        ],
+        "TotalUnlike": [
+          {
+            "format": "INT",
+            "name": "TotalUnlike",
+            "require": true
+          }
+        ],
+        "PK__ProductR__3214EC07DABAB1E5] PRIMARY KEY CLUSTERED \r\n(\r\n\t[Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[Promotion]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[Promotion](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "PK__ProductR__3214EC07DABAB1E5] PRIMARY KEY CLUSTERED \r\n(\r\n\t[Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[Promotion]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[Promotion](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[PromotionMeta]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[PromotionMeta](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[PromotionMeta]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[PromotionMeta](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[Province]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[Province](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[Province]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[Province](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[Rank]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[Rank](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[Rank]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[Rank](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[ReviewLikes]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[ReviewLikes](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[ReviewLikes]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[ReviewLikes](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "ProductReviewId": [
+          {
+            "format": "BIGINT",
+            "name": "ProductReviewId",
+            "require": false
+          }
+        ],
+        "IsLiked": [
+          {
+            "format": "BIT",
+            "name": "IsLiked",
+            "require": true
+          }
+        ],
+        "PK_ReviewLikes] PRIMARY KEY CLUSTERED \r\n(\r\n\t[Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[Rights]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[Rights](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "PK_ReviewLikes] PRIMARY KEY CLUSTERED \r\n(\r\n\t[Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[Rights]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[Rights](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[Role]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[Role](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[Role]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[Role](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "PK__Role__3214EC07C4B497F9] PRIMARY KEY CLUSTERED \r\n(\r\n\t[Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[RoleMenu]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[RoleMenu](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "PK__Role__3214EC07C4B497F9] PRIMARY KEY CLUSTERED \r\n(\r\n\t[Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[RoleMenu]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[RoleMenu](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "MenuId": [
+          {
+            "format": "BIGINT",
+            "name": "MenuId",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[RoleRights]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[RoleRights](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[RoleRights]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[RoleRights](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "RightsId": [
+          {
+            "format": "BIGINT",
+            "name": "RightsId",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[Setting]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[Setting](\r\n\t[Id": [
+          {
+            "format": "INT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[Setting]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[Setting](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "KeyValue": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "KeyValue",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[Ship]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[Ship](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[Ship]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[Ship](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "CustomerShipAddressId": [
+          {
+            "format": "BIGINT",
+            "name": "CustomerShipAddressId",
+            "require": false
+          }
+        ],
+        "ShipTypeId": [
+          {
+            "format": "BIGINT",
+            "name": "ShipTypeId",
+            "require": false
+          }
+        ],
+        "ShipStatusId": [
+          {
+            "format": "BIGINT",
+            "name": "ShipStatusId",
+            "require": false
+          }
+        ],
+        "ShipSuccessTime": [
+          {
+            "format": "DATETIME2(7)",
+            "name": "ShipSuccessTime",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[ShipStatus]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[ShipStatus](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[ShipStatus]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[ShipStatus](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[ShipType]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[ShipType](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[ShipType]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[ShipType](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[Slide]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[Slide](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[Slide]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[Slide](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "ImagePath": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "ImagePath",
+            "require": false
+          }
+        ],
+        "ThemeMode": [
+          {
+            "format": "NVARCHAR(15)",
+            "name": "ThemeMode",
+            "require": false
+          }
+        ],
+        "PK__Slide__3214EC076979490F] PRIMARY KEY CLUSTERED \r\n(\r\n\t[Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[Supplier]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[Supplier](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "PK__Slide__3214EC076979490F] PRIMARY KEY CLUSTERED \r\n(\r\n\t[Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[Supplier]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[Supplier](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "SupplierTypeId": [
+          {
+            "format": "BIGINT",
+            "name": "SupplierTypeId",
+            "require": true
+          }
+        ],
+        "SupplierStatusId": [
+          {
+            "format": "BIGINT",
+            "name": "SupplierStatusId",
+            "require": true
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[SupplierStatus]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[SupplierStatus](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[SupplierStatus]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[SupplierStatus](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[SupplierType]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[SupplierType](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[SupplierType]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[SupplierType](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[SystemProductLogHistory]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[SystemProductLogHistory](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[SystemProductLogHistory]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[SystemProductLogHistory](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "OrderReturnId": [
+          {
+            "format": "BIGINT",
+            "name": "OrderReturnId",
+            "require": false
+          }
+        ],
+        "PurchaseOrderId": [
+          {
+            "format": "BIGINT",
+            "name": "PurchaseOrderId",
+            "require": false
+          }
+        ],
+        "UpdatedAccountId": [
+          {
+            "format": "BIGINT",
+            "name": "UpdatedAccountId",
+            "require": true
+          }
+        ],
+        "UpdatedTime": [
+          {
+            "format": "DATETIME",
+            "name": "UpdatedTime",
+            "require": true
+          }
+        ],
+        "SystemProductLogHistoryTypeId": [
+          {
+            "format": "BIGINT",
+            "name": "SystemProductLogHistoryTypeId",
+            "require": true
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[SystemProductLogHistoryType]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[SystemProductLogHistoryType](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[SystemProductLogHistoryType]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[SystemProductLogHistoryType](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[Tag]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[Tag](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[Tag]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[Tag](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "TagTypeId": [
+          {
+            "format": "BIGINT",
+            "name": "TagTypeId",
+            "require": true
+          }
+        ],
+        "PK_Tag] PRIMARY KEY CLUSTERED \r\n(\r\n\t[Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[TagType]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[TagType](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "PK_Tag] PRIMARY KEY CLUSTERED \r\n(\r\n\t[Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[TagType]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[TagType](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "PK_TagType] PRIMARY KEY CLUSTERED \r\n(\r\n\t[Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[Transactions]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[Transactions](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "PK_TagType] PRIMARY KEY CLUSTERED \r\n(\r\n\t[Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[Transactions]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[Transactions](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "TransactionTypeId": [
+          {
+            "format": "BIGINT",
+            "name": "TransactionTypeId",
+            "require": false
+          }
+        ],
+        "TransactionStatusId": [
+          {
+            "format": "BIGINT",
+            "name": "TransactionStatusId",
+            "require": false
+          }
+        ],
+        "Amount": [
+          {
+            "format": "INT",
+            "name": "Amount",
+            "require": false
+          }
+        ],
+        "SenderInfo": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "SenderInfo",
+            "require": false
+          }
+        ],
+        "ReceiveInfo": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "ReceiveInfo",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[TransactionsMeta]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[TransactionsMeta](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[TransactionsMeta]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[TransactionsMeta](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "TransactionId": [
+          {
+            "format": "BIGINT",
+            "name": "TransactionId",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[TransactionStatus]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[TransactionStatus](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[TransactionStatus]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[TransactionStatus](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[TransactionType]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[TransactionType](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[TransactionType]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[TransactionType](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[UploadFile]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[UploadFile](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[UploadFile]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[UploadFile](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "FolderUploadId": [
+          {
+            "format": "BIGINT",
+            "name": "FolderUploadId",
+            "require": true
+          }
+        ],
+        "Size": [
+          {
+            "format": "BIGINT",
+            "name": "Size",
+            "require": false
+          }
+        ],
+        "Extension": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "Extension",
+            "require": false
+          }
+        ],
+        "ThumbnailPath": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "ThumbnailPath",
+            "require": false
+          }
+        ],
+        "MimeType": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "MimeType",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[Voucher]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[Voucher](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[Voucher]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[Voucher](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "VoucherTypeId": [
+          {
+            "format": "BIGINT",
+            "name": "VoucherTypeId",
+            "require": false
+          }
+        ],
+        "VoucherStatusId": [
+          {
+            "format": "BIGINT",
+            "name": "VoucherStatusId",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[VoucherMeta]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[VoucherMeta](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[VoucherMeta]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[VoucherMeta](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "VoucherId": [
+          {
+            "format": "BIGINT",
+            "name": "VoucherId",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[VoucherStatus]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[VoucherStatus](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[VoucherStatus]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[VoucherStatus](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[VoucherType]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[VoucherType](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[VoucherType]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[VoucherType](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[Ward]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[Ward](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[Ward]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[Ward](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[Warehouse]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[Warehouse](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[Warehouse]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[Warehouse](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "WarehouseStatusId": [
+          {
+            "format": "BIGINT",
+            "name": "WarehouseStatusId",
+            "require": true
+          }
+        ],
+        "WarehouseTypeId": [
+          {
+            "format": "BIGINT",
+            "name": "WarehouseTypeId",
+            "require": true
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[WarehouseAccount]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[WarehouseAccount](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[WarehouseAccount]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[WarehouseAccount](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "WarehouseId": [
+          {
+            "format": "BIGINT",
+            "name": "WarehouseId",
+            "require": true
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[WarehouseCard]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[WarehouseCard](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[WarehouseCard]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[WarehouseCard](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "WarehouseEntryRequestId": [
+          {
+            "format": "BIGINT",
+            "name": "WarehouseEntryRequestId",
+            "require": true
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[WarehouseCardDetail]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[WarehouseCardDetail](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[WarehouseCardDetail]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[WarehouseCardDetail](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "WarehouseCardId": [
+          {
+            "format": "BIGINT",
+            "name": "WarehouseCardId",
+            "require": true
+          }
+        ],
+        "QuantityRemain": [
+          {
+            "format": "INT",
+            "name": "QuantityRemain",
+            "require": false
+          }
+        ],
+        "Sign": [
+          {
+            "format": "NVARCHAR(5)",
+            "name": "Sign",
+            "require": false
+          }
+        ],
+        "StatusName": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "StatusName",
+            "require": false
+          }
+        ],
+        "StatusId": [
+          {
+            "format": "BIGINT",
+            "name": "StatusId",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[WarehouseEntryRequest]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[WarehouseEntryRequest](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[WarehouseEntryRequest]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[WarehouseEntryRequest](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "WarehouseEntryRequestStatusId": [
+          {
+            "format": "BIGINT",
+            "name": "WarehouseEntryRequestStatusId",
+            "require": true
+          }
+        ],
+        "Reason": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "Reason",
+            "require": false
+          }
+        ],
+        "ShipRecipientId": [
+          {
+            "format": "BIGINT",
+            "name": "ShipRecipientId",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[WarehouseEntryRequestDetail]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[WarehouseEntryRequestDetail](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[WarehouseEntryRequestDetail]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[WarehouseEntryRequestDetail](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "Unit": [
+          {
+            "format": "NVARCHAR(MAX)",
+            "name": "Unit",
+            "require": false
+          }
+        ],
+        "ProductAddedCanbinetQuantity": [
+          {
+            "format": "INT",
+            "name": "ProductAddedCanbinetQuantity",
+            "require": false
+          }
+        ],
+        "ExpiryDate": [
+          {
+            "format": "DATETIME",
+            "name": "ExpiryDate",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[WarehouseEntryRequestHistory]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[WarehouseEntryRequestHistory](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[WarehouseEntryRequestHistory]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[WarehouseEntryRequestHistory](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[WarehouseEntryRequestStatus]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[WarehouseEntryRequestStatus](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[WarehouseEntryRequestStatus]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[WarehouseEntryRequestStatus](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[WarehouseStatus]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[WarehouseStatus](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[WarehouseStatus]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[WarehouseStatus](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[WarehouseType]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[WarehouseType](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[WarehouseType]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[WarehouseType](\r\n\t[Id",
+            "require": false
+          }
+        ],
+        "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[Wishlist]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[Wishlist](\r\n\t[Id": [
+          {
+            "format": "BIGINT",
+            "name": "Id] ASC\r\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]\r\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\r\nGO\r\n/****** Object:  Table [dbo].[Wishlist]    Script Date: 8/20/2024 11:40:46 PM ******/\r\nSET ANSI_NULLS ON\r\nGO\r\nSET QUOTED_IDENTIFIER ON\r\nGO\r\nCREATE TABLE [dbo].[Wishlist](\r\n\t[Id",
+            "require": false
+          }
+        ]
+      }
+    ]
+  }
+]

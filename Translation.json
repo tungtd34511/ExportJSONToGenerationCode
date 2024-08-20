@@ -1,0 +1,12 @@
+{
+  "Id": "Mã",
+  "GroupId": "Nhóm",
+  "ParentId": "Cha",
+  "Active": "Kích hoạt",
+  "Priority": "Ưu tiên",
+  "MenuTypeId": "Loại Menu",
+  "Name": "Tên",
+  "Description": "Miêu tả",
+  "Url": "Liên kết",
+  "CreatedTime": "Ngày tạo"
+}
