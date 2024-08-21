@@ -13,7 +13,7 @@ namespace ExportJSONToGenerationCode.Util
         public static List<TableSchema> ParseSqlToSchema(string sqlContent)
         {
             var tables = new List<TableSchema>();
-            var tableMatches = Regex.Matches(sqlContent, @"CREATE TABLE \[dbo\]\.\[(?<tableName>.*?)\]\s*\((?<schema>.*?)\)\s*GO", RegexOptions.Singleline);
+            var tableMatches = Regex.Matches(sqlContent, @"CREATE TABLE \[dbo\]\.\[(?<tableName>.*?)\]\s*\((?<schema>[\s\S]*?)\)\s*(TEXTIMAGE_ON|ON \[PRIMARY\]|\))", RegexOptions.Singleline);
 
             foreach (Match tableMatch in tableMatches)
             {
@@ -43,7 +43,9 @@ namespace ExportJSONToGenerationCode.Util
 
                 schema.Add(columns);
 
-                var foreignKeyMatches = Regex.Matches(sqlContent, @"FOREIGN KEY\s*\(\[(?<fkColumn>.*?)\]\)\s*REFERENCES\s*\[dbo\]\.\[(?<refTable>.*?)\]\s*\(\[(?<refColumn>.*?)\]\)", RegexOptions.Singleline);
+                var foreignKeyMatches = Regex.Matches(sqlContent,
+       $@"ALTER TABLE \[dbo\]\.\[{tableName}\]\s+WITH CHECK ADD\s+CONSTRAINT\s+\[(?<constraintName>.*?)\]\s+FOREIGN KEY\s*\(\[(?<fkColumn>.*?)\]\)\s*REFERENCES\s*\[dbo\]\.\[(?<refTable>.*?)\]\s*\(\[(?<refColumn>.*?)\]\)",
+       RegexOptions.Singleline); 
                 var foreignKeys = new List<ForeignKeySchema>();
 
                 foreach (Match fkMatch in foreignKeyMatches)

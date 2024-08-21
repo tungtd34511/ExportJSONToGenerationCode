@@ -5,8 +5,8 @@ using System.Text;
 
 Console.OutputEncoding = Encoding.UTF8; //Hiển thị tiếng việt
 
-string sqlFilePath = "C:\\Users\\DPC\\source\\repos\\ExportJSONToGenerationCode\\demo.sql";  // Đường dẫn đến tệp SQL
-string configJsonFilePath = "C:\\Users\\DPC\\source\\repos\\ExportJSONToGenerationCode\\Translation.json"; //Đổi lại tùy vào máy
+string sqlFilePath = "C:\\Users\\PC\\Source\\Repos\\ExportJSONToGenerationCode\\demo.sql";  // Đường dẫn đến tệp SQL
+string configJsonFilePath = "C:\\Users\\PC\\Source\\Repos\\ExportJSONToGenerationCode\\Translation.json"; //Đổi lại tùy vào máy
 string sqlContent = File.ReadAllText(sqlFilePath);
 string configJsonContent = File.ReadAllText(configJsonFilePath);
 
@@ -21,7 +21,7 @@ GenerationUtil.TranslateColumnNames(tables, columnNameTranslations);
 
 // Chuyển đổi đối tượng C# thành JSON
 string jsonOutput = JsonConvert.SerializeObject(tables, Formatting.Indented);
-File.WriteAllText("C:\\Users\\DPC\\source\\repos\\ExportJSONToGenerationCode\\output.json", jsonOutput);
+File.WriteAllText("C:\\Users\\PC\\Source\\Repos\\ExportJSONToGenerationCode\\output.json", jsonOutput);
 
 Console.WriteLine("Đã chuyển đổi SQL sang JSON và định dạng tên cột thành công.");
 
